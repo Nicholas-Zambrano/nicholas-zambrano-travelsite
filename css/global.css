@@ -11,14 +11,15 @@ html {
 
 body {
   font-size: 1.6rem;
+  margin: 0;
 }
 
-.nav{
+.nav {
   height: 6rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 5px black solid;
+  /* border: 5px black solid; */
   background-color: #ffffff;
 }
 
@@ -41,11 +42,87 @@ body {
   color: black;
 }
 
-
-.nav__logo{
+.nav__logo {
   font-size: 2.2rem;
   text-decoration: none;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+  color:#335576 ;
+}
+
+.footer {
+  height: 21rem;
+  width: 100%;
+  background-color: #fefaf5;
+}
+
+/* making direct parent for footer relationship which wraps */
+.footer__aligning {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 2rem;
+}
+
+.footer__hours {
+  display: inline-flex;
+}
+
+.footer__title{
+  display: flex;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
   color: #335576;
+  position: relative;
+  top: 3rem;
+}
+
+.footer__link{
+  height: 3rem;
+}
+
+
+.footer__email,.footer__dates{
+  color: #DB7A4E ;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 1rem;
+
+}
+
+.footer__email-address,.footer__AM-PM{
+  color: #335576 ;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/* changed the margin between the opening times */
+.footer__times{
+  margin-right:5rem ;
+}
+
+.footer__wrap--social{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 4.5rem;
+}
+
+.footer__icons div{
+  display: inline-block;
+  margin-right: 3rem;
+}
+
+/* used modifiers */
+.footer__wrap--social{
+  position: relative;
+  right: 9rem;
+}
+
+.footer__wrap--contact{
+  position: relative;
+  left: 8rem;
 }

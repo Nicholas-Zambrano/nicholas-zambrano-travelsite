@@ -12,22 +12,22 @@
     <header class="header">
       <nav class="nav">
         <section class="nav__header">
-          <a class="nav__logo" href="index.html">Travel site</a>
+          <a class="nav__logo" href="/index.html">Travel site</a>
         </section>
 
         <section class="nav__pages">
           <ul class="nav__links">
             <li class="nav__item">
-              <a class="nav__link nav__link--active" href="">Home</a>
+              <a class="nav__link nav__link--active" href="/index.html">Home</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="">Hawaii</a>
+              <a class="nav__link" href="./pages/hawaii.html">Hawaii</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="">Iceland</a>
+              <a class="nav__link" href="./pages/iceland.html">Iceland</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="">Greece</a>
+              <a class="nav__link" href="./pages/greece.html">Greece</a>
             </li>
           </ul>
         </section>
@@ -49,7 +49,6 @@
           <img src="./assets/Images/hero.png" alt="" />
         </div>
       </section>
-
     </main>
 
     <section class="recommendation">
@@ -57,29 +56,36 @@
         <h2 class="recommendation__title">Recommendations</h2>
 
         <section class="recommendation__location">
+          <a href="./pages/hawaii.html">
           <img
             src="./assets/Images/hawaii.jpg"
             alt=""
             class="recommendation__image"
           />
-          <h3 class="recommendation__caption">Hawaii</h3>
+        </a>
+        <h3 class="recommendation__caption">Hawaii</h3>
         </section>
 
+
         <section class="recommendation__location">
-          <img
-            src="./assets/Images/iceland.jpg"
-            alt=""
-            class="recommendation__image"  
-          />
+          <a href="./pages/iceland.html">
+            <img
+              src="./assets/Images/iceland.jpg"
+              alt=""
+              class="recommendation__image"
+            />
+          </a>
           <h3 class="recommendation__caption">Iceland</h3>
         </section>
 
         <section class="recommendation__location">
-          <img
-            src="./assets/Images/greece.jpg"
-            alt=""
-            class="recommendation__image"
-          />
+          <a href="./pages/greece.html">
+            <img
+              src="./assets/Images/greece.jpg"
+              alt=""
+              class="recommendation__image"
+            />
+          </a>
 
           <h3 class="recommendation__caption">Greece</h3>
         </section>
@@ -87,22 +93,69 @@
     </section>
 
     <footer class="footer">
+      <section class="footer__aligning">
 
-      <section class="footer__title">
-        <h3 class="footer__text"> Contact</h3>
-        <p>Email</p>
-        <p>info@travelsite.com</p>
+        <section class="footer__wrap footer__wrap--contact">
+          <section class="footer__title">
+            <h2 class="footer__text">Contact</h2>
+          </section>
+
+          <section class="footer__info">
+            <p class="footer__email">Email</p>
+            <p class="footer__email-address">info@travelsite.com</p>
+          </section>
+        </section>
+
+        <section class="footer__wrap">
+          <section class="footer__title">
+            <h2 class="footer__text">Hours</h2>
+          </section>
+
+          <section class="footer__hours">
+            <div class="footer__times">
+              <p class="footer__dates">Monday - Friday</p>
+              <p class="footer__AM-PM">9:00 AM - 5:00 PM</p>
+            </div>
+
+            <div class="footer__times">
+              <p class= "footer__dates">Saturday</p>
+              <p class="footer__AM-PM">10:00 AM - 4:00 PM</p>
+            </div>
+
+            <div class="footer__times">
+              <p class="footer__dates">Sunday</p>
+              <p class="footer__AM-PM">Closed</p>
+            </div>
+          </section>
+        </section>
+
+        <section class="footer__wrap  footer__wrap--social">
+          <section class="footer__title">
+            <h2 class="footer__text">Social</h2>
+          </section>
+
+          <footer class="footer__icons">
+
+          <div>
+            <a href="https://www.instagram.com">
+            <img class="footer__link" src="./assets/Icons/icon-instagram.png" alt="instagram" />
+            </a>
+          </div>
+
+          <div>
+            <a href="https://www.facebook.com">
+            <img class="footer__link" src="./assets/Icons/icon-facebook.png" alt="facebook" />
+            </a>
+          </div>
+
+          <div>
+            <a href="https://twitter.com">
+            <img  class="footer__link" src="./assets/Icons/icon-twitter.png" alt="twitter" />
+            </a>
+          </div>  
+          </section>
       </section>
-
-      <section class="footer__title" >
-        <h3 class="footer__text"> Hours</h3>
-        <p>Monday - Friday</p>
-        <p>9:00 AM - 5: </p>
-
-      </section>
-
+      
     </footer>
-
-
   </body>
 </html>
