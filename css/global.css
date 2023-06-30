@@ -53,7 +53,7 @@ body {
 .footer {
   height: 21rem;
   width: 100%;
-  background-color: #fefaf5;
+  background-color: #FEFAF5;
 }
 
 /* making direct parent for footer relationship which wraps */
@@ -126,3 +126,4 @@ body {
   position: relative;
   left: 8rem;
 }
+

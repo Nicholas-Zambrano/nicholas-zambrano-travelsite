@@ -18,8 +18,9 @@
     height: 50%;
     color: #335576;
     width: 35%;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .hero__title{
