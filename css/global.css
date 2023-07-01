@@ -119,12 +119,11 @@ body {
 
 /* used modifiers */
 .footer__wrap--social{
-  position: relative;
-  right: 9rem;
+  margin-right: 12rem;
 }
 
 .footer__wrap--contact{
-  position: relative;
-  left: 8rem;
+  margin-left:12rem;
 }
+
 
