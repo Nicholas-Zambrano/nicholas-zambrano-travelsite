@@ -89,7 +89,7 @@
         margin-left: 20rem;
     }
 
-    .nav__link--hawaii,.nav__link--iceland{
+    .nav__link--hawaii,.nav__link--iceland,.nav__link--greece{
         text-decoration: underline;
         text-decoration-color: #DB7A4E ;
         text-decoration-thickness:0.3rem ;
@@ -114,4 +114,8 @@
 
 .main--iceland{
     background-image: url(../assets/Images/iceland.jpg);
+}
+
+.main--greece{
+    background-image: url(../assets/Images/greece.jpg);
 }
