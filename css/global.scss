@@ -1,0 +1,101 @@
+
+@use "./partials/variables" as *;
+
+@use "./partials/resets";
+
+.nav{
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 5px black solid; */
+    background-color: #ffffff;
+    
+    &__header,&__pages{
+        width: 40%;
+    }
+    &__links{
+        margin: 0;
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+    }
+
+        &__link{
+            text-decoration: none;
+            font-size: 2rem;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif; 
+        }
+
+        &__logo{
+            font-size: 2.2rem;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            color:$dark-blue ;
+        }
+
+}
+
+.footer{
+    height: 21rem;
+    width: 100%;
+    background-color: #FEFAF5;
+
+    &__aligning{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 2rem;
+    }
+
+    &__hours{
+        display: inline-flex;
+    }
+
+    &__title{
+        display: flex;
+        font-size: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color:$dark-blue;
+        position: relative;
+        top: 3rem;
+    }
+    &__link{
+        height: 3rem;
+    }
+    &__email,&__dates{
+        color: #DB7A4E ;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        top: 1rem;     
+    }
+    &__email-address,&__AM-PM{
+        color: $dark-blue ;
+        font-size: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    &__wrap--social{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 4.5rem; 
+        margin-right: 12rem;
+    }
+    &__wrap--contact{
+        margin-left:12rem;
+
+    }
+
+    &__times{
+        margin-right:5rem ;
+    }
+    &__icons div{
+        display: inline-block;
+        margin-right: 3rem;      
+    }
+
+
+}

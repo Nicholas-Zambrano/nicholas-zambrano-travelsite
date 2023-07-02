@@ -22,33 +22,27 @@ body {
   /* border: 5px black solid; */
   background-color: #ffffff;
 }
-
-.nav__header,
-.nav__pages {
+.nav__header, .nav__pages {
   width: 40%;
 }
-
 .nav__links {
   margin: 0;
   display: flex;
   justify-content: space-evenly;
   list-style: none;
 }
-
-/* removed the underline for the anchor tags */
 .nav__link {
   text-decoration: none;
   font-size: 2rem;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 .nav__logo {
   font-size: 2.2rem;
   text-decoration: none;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  color:#335576 ;
+  color: #335576;
 }
 
 .footer {
@@ -56,8 +50,6 @@ body {
   width: 100%;
   background-color: #FEFAF5;
 }
-
-/* making direct parent for footer relationship which wraps */
 .footer__aligning {
   height: 100%;
   width: 100%;
@@ -65,12 +57,10 @@ body {
   justify-content: space-around;
   margin-left: 2rem;
 }
-
 .footer__hours {
   display: inline-flex;
 }
-
-.footer__title{
+.footer__title {
   display: flex;
   font-size: 2rem;
   font-family: Arial, Helvetica, sans-serif;
@@ -78,52 +68,34 @@ body {
   position: relative;
   top: 3rem;
 }
-
-.footer__link{
+.footer__link {
   height: 3rem;
 }
-
-
-.footer__email,.footer__dates{
-  color: #DB7A4E ;
+.footer__email, .footer__dates {
+  color: #DB7A4E;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
   top: 1rem;
-
 }
-
-.footer__email-address,.footer__AM-PM{
-  color: #335576 ;
+.footer__email-address, .footer__AM-PM {
+  color: #335576;
   font-size: 2rem;
   font-family: Arial, Helvetica, sans-serif;
-
 }
-
-
-/* changed the margin between the opening times */
-.footer__times{
-  margin-right:5rem ;
-}
-
-.footer__wrap--social{
+.footer__wrap--social {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 4.5rem;
-}
-
-.footer__icons div{
-  display: inline-block;
-  margin-right: 3rem;
-}
-
-/* used modifiers */
-.footer__wrap--social{
   margin-right: 12rem;
 }
-
-.footer__wrap--contact{
-  margin-left:12rem;
+.footer__wrap--contact {
+  margin-left: 12rem;
 }
-
-
+.footer__times {
+  margin-right: 5rem;
+}
+.footer__icons div {
+  display: inline-block;
+  margin-right: 3rem;
+}/*# sourceMappingURL=global.css.map */
